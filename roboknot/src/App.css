@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+
+:root{
+    --navbar-color: #112332;
+    --text-color: #fff;
+    --button-bg-color: #FDB514;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: var(--text-color)
+}
+
+.navbar{
+    background-color: var(--navbar-color)
+}
+
+.line{
+    /* margin:.5rem 2rem; */
+    border: 3px solid var(--button-bg-color)
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid var(--button-bg-color);
+    transition: 0.3s  ease-in-out;
+}
+
+
+
+
+
+
